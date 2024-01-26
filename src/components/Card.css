@@ -1,0 +1,35 @@
+.main_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  border: 1px solid grey;
+  height: fit-content;
+  margin: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+.img {
+  overflow: hidden;
+  background-size: cover;
+}
+.image {
+  width: 300px;
+  background-size: cover;
+}
+.head {
+  color: rgb(145, 41, 145);
+}
+.tag-btn {
+  background-color: rgb(230, 243, 248);
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+  margin: 5px;
+}
+.hash {
+  flex-wrap: wrap;
+}
+.tag-btn:hover {
+  padding: 6px;
+}
